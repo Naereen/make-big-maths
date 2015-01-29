@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta charset="utf-8"/>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<title>Make Big Maths</title>
+		<title>Bac à sable LaTeX / LaTeX Maths sandbox</title>
 
 		<!-- jquery -->
 		<!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> -->
-		<script type="text/javascript" src="http://perso.crans.org/besson/_static/jquery.js"></script>
 		<script type="text/javascript" src="js/jquery.min.js"></script>
 
 		<!-- knockout -->
@@ -37,13 +37,19 @@
 	<body>
 		<div id="input">
 			<p>LaTeX: <textarea id="tex" rows=1></textarea></p>
-			<p>Size: <input id="size" type="range" min="1" max="30" value="10"></p>
+			<p>Taille / Size: <input id="size" type="range" min="1" max="25" value="10"></p>
 		</div>
 		<div id="output"></div>
-		<hr>
-		<div>Link to this: <a id="link"></a></div>
-		<div id="credit">Hébergé par <a href="http://perso.crans.org/besson/">Lilian Besson</a>.</div>
-		<!-- <div id="credit">Made by <a href="http://checkmyworking.com">cp</a>.</div> -->
+		<!-- <hr> -->
+		<div>
+			<p>Lien vers ce / Link to this <emph>LaTeX code</emph>:
+			<a id="link"></a></p>
+		</div>
+		<div id="credit">
+			<p>Hosted by / Hébergé par <a href="http://perso.crans.org/besson/">Lilian Besson</a>.</p>
+			<p><a href="http://www.gnu.org/licenses/quick-guide-gplv3.html">GPLv3 Released</a></p>
+			<p>Made by initially hosted on <a href="http://checkmyworking.com">cp</a>, <a href="http://checkmyworking.com/misc/makebigmaths/">checkmyworking.com/misc/makebigmaths</a>.</p>
+		</div>
 	</body>
 </html>
 
