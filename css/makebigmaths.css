@@ -13,3 +13,9 @@ body {
 	color: #666;
 	margin-top: 5em;
 }
+textarea {  /* Source: javierjulio.github.io/textarea-autosize */
+    box-sizing: border-box;
+    max-height: 160px; /* optional but recommended */
+    min-height: 38px;
+    overflow-x: hidden; /* for Firefox (issue #5) */
+}

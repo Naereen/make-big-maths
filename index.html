@@ -1,22 +1,18 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="utf-8"/>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta charset="utf-8"/>
 		<title>Bac à sable LaTeX / LaTeX Maths sandbox</title>
 
-		<!-- jquery -->
 		<!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> -->
 		<script type="text/javascript" src="js/jquery.min.js"></script>
 
-		<!-- knockout -->
 		<!-- <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/knockout/2.0.0/knockout-min.js"></script> -->
 		<script type="text/javascript" src="js/knockout-min.js"></script>
 
-		<!-- normalise.css -->
 		<link rel="stylesheet" href="css/normalize.min.css"></link>
 
-		<!-- mathjax -->
 		<script type="text/x-mathjax-config">
 		  MathJax.Hub.Config({
 			extensions: ["tex2jax.js"],
@@ -36,20 +32,38 @@
 	</head>
 	<body>
 		<div id="input">
-			<p>LaTeX: <textarea id="tex" rows=1></textarea></p>
-			<p>Taille / Size: <input id="size" type="range" min="1" max="25" value="10"></p>
+			<p>
+				<h2>LaTeX Math Code:</h2> <!-- rows=1 -->
+				<textarea id="tex" rows="5" cols="60"></textarea>
+			</p>
+			<p>
+				<h3>Taille <span style="font-style: italic;">/ Size</span>:
+				<input id="size" type="range" min="1" max="25" value="10"></h3>
+			</p>
 		</div>
-		<div id="output"></div>
-		<!-- <hr> -->
+	<hr>
 		<div>
-			<p>Lien vers ce / Link to this <emph>LaTeX code</emph>:
-			<a id="link"></a></p>
+			<h3>Sortie <span style="font-style: italic;">/ Output</span>:</h3>
+			<div id="output"></div>
 		</div>
+	<hr>
+		<div>
+			<p>
+				<h3>Lien vers ce <span style="font-style: italic;">/ Link to this</span> <span style="font-style: italic;">LaTeX code</span>:</h3>
+				<p style="margin-left:auto;margin-right:auto;margin:auto;"><a id="link"></a></p>
+			</p>
+		</div>
+	<hr>
 		<div id="credit">
-			<p>Hosted by / Hébergé par <a href="http://perso.crans.org/besson/">Lilian Besson</a>.</p>
-			<p><a href="http://www.gnu.org/licenses/quick-guide-gplv3.html">GPLv3 Released</a></p>
-			<p>Made by initially hosted on <a href="http://checkmyworking.com">cp</a>, <a href="http://checkmyworking.com/misc/makebigmaths/">checkmyworking.com/misc/makebigmaths</a>.</p>
+			<p>Hébergé par <span style="font-style: italic;">/ Hosted by</span> <a href="http://perso.crans.org/besson/">Lilian Besson</a>, sur <span style="font-style: italic;">/ on</span> <a href="https://bitbucket.org/lbesson/makebigmaths">Bitbucket</a>.</p>
+			<p><a href="http://www.gnu.org/licenses/quick-guide-gplv3.html">GPLv3 Released</a> | Powered by Javascript and CSS | 2011-2015</p>
+			<p>Made by <a href="http://checkmyworking.com">cp</a>, initially hosted on <a href="http://checkmyworking.com/misc/makebigmaths/">checkmyworking.com/misc/makebigmaths</a>.</p>
 		</div>
+	<script type="text/javascript" src="js/jquery.textarea_autosize.min.js"></script>
+	<script type="text/javascript">
+		// From http://javierjulio.github.io/textarea-autosize
+		$('textarea').textareaAutoSize();
+	</script>
 	</body>
 </html>
 
