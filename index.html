@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Make Big Maths</title>
+
+		<!-- jquery -->
+		<!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> -->
+		<script type="text/javascript" src="http://perso.crans.org/besson/_static/jquery.js"></script>
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+
+		<!-- knockout -->
+		<!-- <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/knockout/2.0.0/knockout-min.js"></script> -->
+		<script type="text/javascript" src="js/knockout-min.js"></script>
+
+		<!-- normalise.css -->
+		<link rel="stylesheet" href="css/normalize.min.css"></link>
+
+		<!-- mathjax -->
+		<script type="text/x-mathjax-config">
+		  MathJax.Hub.Config({
+			extensions: ["tex2jax.js"],
+			jax: ["input/TeX", "output/HTML-CSS"],
+			tex2jax: {
+			  inlineMath: [ ['$','$'] ],
+			  displayMath: [ ["\\[","\\]"] ],
+			  processEscapes: true
+			},
+			"HTML-CSS": { availableFonts: ["TeX"] }
+		  });
+		</script>
+		<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML.js"></script>
+
+		<script type="text/javascript" src="js/makebigmaths.min.js"></script>
+		<link rel="stylesheet" href="css/makebigmaths.min.css"></link>
+	</head>
+	<body>
+		<div id="input">
+			<p>LaTeX: <textarea id="tex" rows=1></textarea></p>
+			<p>Size: <input id="size" type="range" min="1" max="30" value="10"></p>
+		</div>
+		<div id="output"></div>
+		<hr>
+		<div>Link to this: <a id="link"></a></div>
+		<div id="credit">Hébergé par <a href="http://perso.crans.org/besson/">Lilian Besson</a>.</div>
+		<!-- <div id="credit">Made by <a href="http://checkmyworking.com">cp</a>.</div> -->
+	</body>
+</html>
+
+
+

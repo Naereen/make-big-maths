@@ -1,0 +1,15 @@
+body {
+	font-size: 1.5em;
+	text-align: center;
+}
+#output {
+	min-height: 3em;
+	margin: 1em;
+	font-size: 2em;
+}
+
+#credit {
+	font-size: smaller;
+	color: #666;
+	margin-top: 5em;
+}
