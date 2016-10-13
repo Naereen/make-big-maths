@@ -2,13 +2,12 @@ A simple web-page for rendering LaTeX at any size, using MathJax.
 
 ### How-to
 Its use is extremely simple, go on [this webpage](http://perso.crans.org/besson/makebigmaths/) and play with LaTeX! [1]
+[![made-with-latex](https://img.shields.io/badge/Made%20with-LaTeX-1f425f.svg)](https://www.latex-project.org/)
 [![made-with-MathJax](https://img.shields.io/badge/Made%20with-MathJax-1f425f.svg)](https://www.mathjax.org/)
 
 ----
 
 > Note [1] : when playing, it is always safer to use LaTeX ! :eggplant: joke.
-
-[![Analytics](https://ga-beacon.appspot.com/UA-38514290-17/github.com/Naereen/make-big-maths/README.md?pixel)](https://github.com/Naereen/make-big-maths)
 
 ### :scroll: License ? [![GitHub license](https://img.shields.io/github/license/Naereen/make-big-maths.svg)](https://github.com/Naereen/make-big-maths/blob/master/LICENSE)
 [MIT Licensed](https://lbesson.mit-license.org/) (file [LICENSE.txt](LICENSE.txt)).
