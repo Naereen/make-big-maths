@@ -2,7 +2,7 @@ A simple web-page for rendering LaTeX at any size, using MathJax.
 
 ### How-to
 Its use is extremely simple, go on [this webpage](http://perso.crans.org/besson/makebigmaths/) and play with LaTeX! [1]
-[![made-with-latex](https://img.shields.io/badge/Made%20with-LaTeX-1f425f.svg)](https://www.latex-project.org/)
+[![made-with-MathJax](https://img.shields.io/badge/Made%20with-MathJax-1f425f.svg)](https://www.mathjax.org/)
 
 ----
 
