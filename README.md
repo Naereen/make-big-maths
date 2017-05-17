@@ -10,7 +10,7 @@ Its use is extremely simple, go on [this webpage](http://perso.crans.org/besson/
 
 
 ### :scroll: License ? [![GitHub license](https://img.shields.io/github/license/Naereen/make-big-maths.svg)](https://github.com/Naereen/make-big-maths/blob/master/LICENSE)
-[MIT Licensed](https://lbesson.mit-license.org/) (file [LICENSE.txt](LICENSE.txt)).
+[MIT Licensed](https://lbesson.mit-license.org/) (file [LICENSE](LICENSE)).
 © 2012 Christian Perfect, © 2015-16 [Lilian Besson](https://GitHub.com/Naereen).
 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/make-big-maths/graphs/commit-activity)
